@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>program to check the given string is palindrome or not</h2>
+    <script>
+        var input = 'malayalam';  
+        function palindrome(data) {
+            return data.split('').reverse().join('');
+        }
+        var output = palindrome('malayalam');
+        if(input == output){
+            document.write(`The ${input} is polindrome`);
+        }else {
+            document.write(`The ${input} is not polindrome`);
+        }
+    </script>
+</body>
+</html>
